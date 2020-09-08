@@ -1,14 +1,23 @@
 import React, { Component } from "react";
-import HookCounterThree from "./components/HookMouse";
+import CounterOne from "./components/CounterTwo";
+
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 
 export class App extends Component {
   render() {
     return (
       <div className="App">
-        <HookCounterThree />
+        <CounterOne />
       </div>
     );
   }
 }
 
 export default App;
+
+//  { <UserContext.Provider value={"Ruchir"}>
+//     <ChannelContext.Provider value={"Elukurthy"}>
+//       <UseContext />
+//     </ChannelContext.Provider>
+//   </UserContext.Provider>

@@ -5,6 +5,9 @@ export class ClassCounter extends Component {
     count: 0,
   };
 
+  export const UserCOntext = React.createContext();
+  export const ChannelContext = React.createContext();
+
   incrementCount = () => {
     this.setState({
       count: this.state.count + 1,
