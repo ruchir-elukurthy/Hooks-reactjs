@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import CounterOne from "./components/CounterTwo";
+import CounterOne from "./components/DataFetchingTwo";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
