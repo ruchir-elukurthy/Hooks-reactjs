@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ParentComponent from "./components/HookTimer";
+import ParentComponent from "./components/DocTitleOne";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
